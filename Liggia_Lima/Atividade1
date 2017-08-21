@@ -1,0 +1,17 @@
+Estudante: Liggia Santos Lima
+Turma: TI441
+Data: 15/08/2017
+
+Questão 1: 
+	Git é um sistema de controle de versão de arquivos para desenvolvimento e edição de projetos, seja ele individual ou compartilhado. O gitHub é um serviço web de hospedagem de arquivos para rodar o sistema Git.
+
+Questão 2:
+	O novo repositório foi acrescentado à lista.
+
+Questão 3:
+	O branch é um ponteiro para um agrupamento de arquivos, ou o commit. O branch é necessário para organizar os arquivos e facilitar o compartilhamento. O arquivo foi enviado para o branch principal, que é o master. Para inserir o arquivo em outro branch, teria que criar o branch e no  momento da criação do arquivo, setar o branch que quer no “git push origin nome_do_branch”.
+
+Questão :
+	Apresenta os arquivos que estão inseridos em cada branch e as alterações realizadas.
+
+
