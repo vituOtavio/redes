@@ -1,0 +1,13 @@
+Discente: AnnaPereira Lima Bomfim
+TI: 441
+
+GITHUB
+1) O Git é um sistema de controle, no qual, os usuários podem compartilhar documentos, sendo possível trabalhar sempre em um mesmo 
+diretório, podendo fazer as alterações do projeto, gravando documentação e ainda fazer comentários. Já o GitHub é uma plataforma 
+web que permite que os desenvolvedores hospedem seus projetos.
+2) Uma das únicas diferenças é que podemos ver o nosso novo diretório com o nome do repositório que baixamos. 
+3) No GitHub, o branch é uma forma de trabalhar com um projeto de várias formas ao mesmo tempo sem modificar o projeto original,
+basicamente como o nome sugere, criamos varias ramificações do projet, através de copias. Utilizamos branches quando precisamos 
+modificar. Para enviar arquivos um novo branch basta especifica-lo e em seguida nomear o novo branch. 
+4) O GitHub nos dá a possibilidade de comparar branches diferentes, quando comparado, o Git nos mostra os branches diferentes e 
+quais são as diferenças entre eles.
