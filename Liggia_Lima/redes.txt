@@ -1,0 +1,57 @@
+Estudante: Liggia Santos Lima
+Turma: TI441
+
+
+Estudante: Liggia Santos Lima
+Turma: TI441
+
+Código python:
+
+#!/usr/bin/python
+This example creatles a simple network topology with 1 AP and 2stations’
+from mininet.net import Mininet
+from mininet.node import Controller, OVSKernelAP
+from mininet.cli import CLI
+from mininet.log import setLogLevel
+from mininet.link import TCLink
+
+def topology():
+	“Create a network.”
+	net = Mininet(controller=Controller, link=TCLink, accessPoint=OVSKernelAP)
+
+print “*** Creating nodes”
+h1 = net.addHost(‘h1’, ip=’172.16.10.10/26’)
+h2= net.addHost(‘h2’, ip=’172.16.10.74/26’)
+
+s1 = net.addSwitch(‘s1’)
+
+c0 = net.addController(‘c0’, controller=Controller, ip=’127.0.0.1’, port=6633)
+
+print “*** Configurinf wifi nodes”
+net.configureWifiNodes()
+
+print “*** Associating Stations”
+net.addLink(h1, s1)
+net.addLink(h2 s1)
+
+print “*** Starting network”
+net.build()
+c0.start()
+s1.start([c0])
+
+printi “*** Running CLI”
+CLI(net)
+
+print “*** Stopping network”
+net.stop()
+if__name__ == ‘__main__’:
+setLogLevel(‘info’)
+topology()
+
+
+Questão 1:
+Questão 2: RCF é um documento técnico que estabelece um protocolo padrão para os fluxos de dado na Internet;
+
+Questão 3: 
+a) Placa de rede- enp1s0
+b) Mask- 255.255.255.0/ nº subredes: 
