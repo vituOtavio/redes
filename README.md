@@ -1,6 +1,6 @@
-**~~Prática: pratica01** (entrega 15/08)~~)   
-**~~Atividade 01: redes2** - atv01 (entrega 22/08)~~     
-**Atividade 02 (entrega 05/09)**: Considere o arquivo wireshark.pcapng para responder às perguntas abaixo:  
+**~~Prática: pratica01** (entrega 15/08)~~)      
+**~~Atividade 01: redes2** - atv01 (entrega 22/08)~~           
+**Atividade 02 (entrega 05/09)**: Considere o arquivo wireshark.pcapng para responder às perguntas abaixo:     
         *Questão 01*. O que seria o protocolo RADIUS?  
 	*Questão 02*. Após identificar o protocolo RADIUS, procure sua RFC correspondente e identifique informações relacionadas a ela, como autores, data, número da RFC e demais informações que você julgue serem importantes.  
 	*Questão 03*. Quais são os 3 tipos de mensagens trocadas entre cliente e servidor?  
