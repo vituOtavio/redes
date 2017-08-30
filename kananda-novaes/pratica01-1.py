@@ -15,12 +15,12 @@ def topology():
     print "*** Creating nodes"
     s1 = net.addSwitch('s1')
     c0 = net.addController('c0', controller=Controller, ip='127.0.0.1', port=6633)
-    h1 = net.addHost ('h1', ip='176.16.10.1/26')
-    h2 = net.addHost ('h2', ip='176.16.10.65/26')
-    h3 = net.addHost ('h3', ip='176.16.10.129/26')
-    h4 = net.addHost ('h4', ip='176.16.10.2/26')
-    h5 = net.addHost ('h5', ip='176.16.10.66/26')
-    h6 = net.addHost ('h6', ip='176.16.10.130/26')
+    h1 = net.addHost ('h1', ip='176.16.10.1/27')
+    h2 = net.addHost ('h2', ip='176.16.10.33/27')
+    h3 = net.addHost ('h3', ip='176.16.10.65/27')
+    h4 = net.addHost ('h4', ip='176.16.10.2/27')
+    h5 = net.addHost ('h5', ip='176.16.10.34/27')
+    h6 = net.addHost ('h6', ip='176.16.10.66/27')
 
 
     print "*** Configuring wifi nodes"
