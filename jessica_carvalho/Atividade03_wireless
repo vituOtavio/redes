@@ -1,0 +1,28 @@
+Aluna: Jéssica Andrade de Carvalho
+Disciplina: REDES
+TI: 441 
+
+                                                 Parte 01 (wireshark)
+
+Questão 01
+802.11 – IEEE 
+
+O padrão IEEE 802.11 define basicamente uma arquitetura para as WLANs que abrange os níveis fisicos e de enlace.
+
+Data rate: 54,0 Mb/s
+Channel: 11
+Frequency: 2462 MHz
+
+                                                Parte 02 (atualidades)
+
+Questão 01
+	É muito importante que os serviços de telefone funcionem quando ocorre algum desastre, afinal a maioria das pessoas 
+  possuem apenas smathphones disponiveis. A vida de muitas pessoas dependem do serviço de telecomunicação, a ausencia 
+  deste se torna um problema critíco em situações assim.
+
+Questão 02
+	Small Cells são pequenas antenas utilizadas para ampliar o sinal da rede do celular. Estas são importantes pois existem
+  cada vez mais aparelhos precisando de sinal, ou seja, seria necessario uma quantidade maior de antenas para suprir a demanda. 
+	A tecnologia 5g promove uma melhor taxa de transferencia de dados e menor latencia, aumentando a velocidade de conectividade.
+  Contudo para implantação dessa tecnologia é necessário ampliar a banda  e a frequencia. O “combo” Small Cells e tecnologia 
+  5g seria interessante, pois haveria uma ampliação e melhoramento do sinal, ao mesmo tempo uma melhoria na conectividade.
