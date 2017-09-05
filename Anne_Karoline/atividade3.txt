@@ -1,0 +1,16 @@
+    Parte 1
+    
+Questão 1)
+  Procoloco: 802.11
+  A IEEE 802.11 é uma rede sem fio, mais conhecida como wireless, atua na camada física defininfo uma série de padrões de transmissão e codificação para comunicações sem fio.
+  Informações importantes:  
+            Encapsulation type: IEEE 802.11 plus radiotap radio header (23)
+            Frequency: 2462 MHz
+            Interface id: 0 (mon0)
+  
+    Parte 2
+    
+Questão 1)
+  Manter a estabilidade das redes sem fio nos lugares atingidos pelo Harvey, evitando que seus usuários fiquem sem rede em situações pós catatosfres.
+Questão 2)
+  Small cells são pequenas antenas usada para ampliar o sinal da rede de celular, enquanto o 5G precisa ser mais eficiente para dar conta de um enorme número de dispositivos conectados, logo, ambas as tecnologias podem ser adaptadas para funcionarem juntas, ampliando cada vez mais a corbetura e garantindo melhor estabilidade em um rede que, futuramente, possa conectar inúmeros dispositivos, como drones, carros autônomos, entre outros.
