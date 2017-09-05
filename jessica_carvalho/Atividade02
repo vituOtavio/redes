@@ -1,0 +1,30 @@
+Questão 1)
+RADIUS é um protocolo usado para fornecer autenticação, autorização e serviços de estatísticas para usuários 
+que conectam-se a e utilizam um serviço de rede. Ele possui 3 funções básicas:
+    1) autenticação de usuários (ou dispositivos) antes da permissão de acesso a rede.
+    2) autorização de outros usuários (ou dispositivos) a usar determinados serviços fornecidos pela rede.
+    3) informar sobre o uso de outros serviços.
+
+Questão 2)
+O documento RFC referente ao protocolo RADIUS é o 2865.
+Autores: C. Rigney, S. Willens, Livingston,A. Rubens, W. Simpson.
+Data: Junho de 2000
+Número: 2865
+Informações adicionais:
+ 
+Questão 3)
+"Access Request", "Access Challenge" e "Access Accept".
+ 
+Questão 4)
+"An access request must contain a username attribute. You should
+contains a NAS-IP-Address attribute or a NAS-Identifier
+attribute (or both)." Fonte: https://tools.ietf.org/html/rfc2865#page-17
+
+AVP: l=5 t=User-Name(1): joe
+AVP: l=6 t=NAS-IP-Address(4): 192.168.0.1
+AVP: l=17 t=NAS-Identifier(32): ap1.example.com
+
+
+AVP: l=5 t=User-Name(1): bob
+AVP: l=6 t=NAS-IP-Address(4): 192.168.0.1
+AVP: l=17 t=NAS-Identifier(32): ap1.example.com
