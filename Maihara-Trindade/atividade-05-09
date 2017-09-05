@@ -1,0 +1,36 @@
+QUESTÃO 1)
+RADIUS é um tipo de protocolo de rede que fornece gerenciamento centralizado de Autentitação, Autorização e Contabilização para
+os usuários que se conectam e utilizam um serviço de rede.
+ 
+QUESTÃO 2)
+O documento RFC do protocolo RADIUS é o 2865.
+Autores:
+    C. Rigney
+    S. Willens
+    Livingston
+    A. Rubens
+    Merit
+    W. Simpson
+    Daydreamer
+ 
+Data: Junho de 2000
+
+QUESTÃO 3)
+Access - Request
+Access - Challenge
+Access - Accept
+ 
+QUESTÃO 4)
+Um "Access - Request" pode conter um atributo de nome de usuário.
+Deve conter um atributo NAS-IP-Address ou um NAS-Identifier atributo
+(ou ambos).
+
+(1)
+AVP: l=5 t=User-Name(1): joe
+AVP: l=6 t=NAS-IP-Address(4): 192.168.0.1
+AVP: l=17 t=NAS-Identifier(32): ap1.example.com
+
+(2)
+AVP: l=5 t=User-Name(1): bob
+AVP: l=6 t=NAS-IP-Address(4): 192.168.0.1
+AVP: l=17 t=NAS-Identifier(32): ap1.example.com
