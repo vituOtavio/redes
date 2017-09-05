@@ -1,0 +1,15 @@
+IFBA-Jequié
+Estudante- Liggia Santos Lima
+Turma- TI441
+
+					Parte 1 (wireshark)
+
+-Protocolo mais capturado: TCP
+- O TCP/IP é um protocolo de controle de transmissão, ele verifica a captura de dados e entrega todos os datagramas ordenadamente. Ele apresenta maior segurança por ter um sistema de avisos de recepção de protocolo.
+- Foram capturados 104 bytes de frame, totalizando 832 bit. Tal informação é importante para definir se o arquivo foi totalmente carregado na rede; ip de fonte e destino (10.17.15.84 e 151.101.1.63), é importante para identificar de onde vieram os pacotes e para onde vão; endereços de fonte e destino (80:58:f8:77:c0:73 e 00:0c:29:26:cd:1a).
+
+
+					Parte 2 (atualidades)
+
+-Questão 1: O texto relata uma queda de sinal para celular após um desastre natural, o furacão Harley. A queda de sinal causou um transtorno pois muitos serviços dependem do mesmo, como o furacão afetou as antenas, as pessoas ficaram sem sinal de telefone e consequentemente, internet.
+-Questão 2: Small cells é uma tecnologia que utiliza o metodo de diminuir a perca de sinal. Funciona espalhando pequenas antenas com sinal de rede de celular, fazendo com que um volume maior de dados sejam carregados. Para lugares que sofreram com desastres é muito eficiente, visto que é algo rápido de instalar, as antenas são pequenas e permitem que dados sejam carregados mais rapidamente, solucionando o problema da falta de comunicação nos locais de desastre. Tanto o 5G, quanto o Small Cells, representam avanços focados na velocidade de transmissão de dados. Para que o 5G funcione, seria necessária a utilização do Small Cell, muitas antenas espalhadas com uma tecnologia baseada em um baixo número de celulas com muita eficiência, seria o ideal.
