@@ -1,0 +1,61 @@
+ KUROSE
+
+Seção 6.1
+
+	questão 1:
+
+	É quando os hospedeiros estão associaados através de uma estação-base, pois assim
+
+	os serviços tradicionais de redes são fornecidos pela rede de conexão (estação-base.
+
+	Outro modo é o ad hoc. A diferença entre esses modos é a segurança que há
+ 
+	no infra-estrutura, a confiabilidade aprimorada, o desempenho mais rápido com uma
+
+	configuração mais fácil, além de que o Ad hoc ser mais restrito.
+
+
+
+ 	questão 2:
+
+	1.Hospedeiro sem fio; 2.Enlaces sem fio; 3.Estação-base; 4.Infraestrutura de rede.
+
+	Já foi utilizada o hospedeiro sem fio (notebook) e estação-base (3G, 4G)
+
+
+Seção 6.2
+
+	questão 3:
+
+	A atenuação de percurso é quando o sinal se dispersa reduzindo sua força total, a interferência por outras fontes
+	é quando há várias "rádios" transmitindo na mesma frequencia, assim ocorre a interferencia, já na propagação multivias só 
+	ocorre quando há porções da onda eletromagnetica refletem em algum objeto e/ou solo e assim muda sua direção,
+	aumentando seu comprimento entre o emissor e o receptor.
+
+
+	questão 4:
+
+	A estação-base pode se conectar com uma rede maior e fazendo dela uma retrasnmissora de camada de enlace,
+	aumentado seu alcance para o hospedeiro continuar a se comunicar.
+
+
+Seção 6.3
+
+	questão 7:
+	Porque nos canais sem fio taxas de erros de bits são elevadas, e na Ethernet cabeada a transmissora utiliza o protocolo
+	CSMA/CA, que poderá detectar algum erro, diferente das redes sem fio que não utiliza tal protocolo, mas usa o CSMA/CA
+	que evita, entretanto não detecta.		
+
+	questão 8:
+
+	Falso, pois o 802.11 utiliza prevenções de colisão, e com elevadas taxas de erros de transmissão em rede sem fio, além
+	do 802.11 utilizar um esquema de retransmissão de camada de enlace.
+
+Seção 6.5 a 6.6 
+
+	questão 16
+
+:
+	Não precisa ser móvel, pois a rede criada irá ter vários pontos de acesso.
+	Não é móvel na pespectiva da rede, já que o usuário vai se apresentar um desafio para a rede, pois a movimentação do 
+	usuário irá transitar pelos pontos de conexão.
