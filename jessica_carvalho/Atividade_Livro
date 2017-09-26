@@ -1,0 +1,33 @@
+ATIVIDADE (26/09)
+
+S 6.1
+
+01) Quando hospedeiros estão associados com uma estação-base, diz-se que estão operando em modo infraestrutura. Se não estiver 
+nesse modo, ela esta em modo ad hoc, ou seja os hospedeiros sem fio não dispõe nenhuma de infraestrutura a qual se conectar, 
+eles próprios devem prover serviços como roteamento, atribuição de endereço, entre outros.
+
+02) Salto único com infraestrutura e sem infraestrutura, Múltiplos saltos com infraestrutura e sem infraestrutura.
+
+S 6.2
+
+03) *Atunuação de percurso seria a redução da força de sinal a medida que aumenta a distancia entre o emissor e receptor.
+*Interferência de outras fontes é quando existem varias fontes transmitindo na mesma banda de frequência, estas sofrerão interferencias
+umas das outras.
+*Propagação multivias ocorre quando poções da onda eletromagnética se refletem em objetos e no solo tomando caminhos e comprimentos 
+diferentes entre um emissor e receptor.
+
+04) SRN e BER, um remetente pode aumentar o SRN elevando a potencia elevando sua potencia de transmissão.
+
+S 6.3
+
+07)Em 802.11, cada estação sem fio precisa de um AP, afinal é necessário identificar em qual ponto de acesso deseja conectar seu 
+dispositivo. Já em Ethernet cabeada, você não necessariamente precisa identificar a qual ponto de acesso deseja conectar, pois você 
+já esta conectado ao cabo de rede.
+
+08) Verdadeiro
+
+S 6.4
+
+16)*Não, ele pode possuir conexão a rede sem fio e não ser móvel, como exemplo tem-se os desktops, é possível conectar ao wifi por
+meio de um gadget, assim como outros aparelhos domésticos como televisão, geladeira...
+*Em relação a rede, este usuário mantem-se fixo na mesma, porém seu dispositivo é móvel.
