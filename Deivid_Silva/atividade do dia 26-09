@@ -1,0 +1,53 @@
+#####
+Livro de kurose - cap 6 - questoes 1, 2 (da seção 6.1) 
+3,4 (da seção 6.2) 7, 8 (da seção 6.3) 16 (da seção 6.5 a 6.6)
+#####
+
+Questão 1)
+Quando hospedeiros estão associados com uma estação-base, dessa forma,
+diz-se que estão operando em modo de infraestrutura, já que os serviços
+tradicionais de rede, estão sendo oferecidos pelo rede com a qual a
+estação-base estiver conectada.
+
+Caso não estejam em modo de infraestrutura, estão em "Rede ad hoc", e
+então, os próprios hospedeiros deveram oferecer serviços de roteamento,
+atribuição de endereços, tradução de endereços semelhantes ao DNS e outros...
+
+
+Questão 2)
+Salto único sem infraestrutura.
+Salto único com infraestrutura.
+Múltiplos saltos com infraestrutura.
+Múltiplos saltos sem infraestrutura.
+
+Questão 3)
+Atenuação de percuso ocorre quando o sinal se dispersa, até mesmo no ar, 
+quando aumenta a distância entre o emissor e o receptor.
+
+Propagações multivias ocorre quando porção de onda eletromagnética reflete
+em matériais como o solo, e tomam comprimentos de onda diferentes entre o emissor
+e o receptor
+
+Interferência de outras fontes ocorre quando, várias ondas de rádios são emitidas
+na mesma frequência, e assim, sofrem interferência uma das outras.
+
+Questão 4)
+
+
+Questão 7)
+Porque a conexão wireless do protocolo 802.11, tem uma grande possibilidade de ser
+perdido, ou ocorrer algum erro, devido a uma variedade de razões. Então o processo
+de reconhecimento de camada desse ser realizado. Já a conexão cabial não passa por
+todos esses possíveis erros.
+
+
+Questão 8)
+Falso
+
+
+Questão 16)
+O usuário não apresenta nenhuma mobilidade, pois o usuário só se movimenta dentro 
+do alcance da mesma rede sem fio. Então, para a estação, ele não está em movimento.
+
+
+
