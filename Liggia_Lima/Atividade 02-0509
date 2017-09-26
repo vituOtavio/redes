@@ -1,0 +1,22 @@
+IFBA-Jequié
+Estudante-Liggia Santos Lima
+Turma-TI441
+
+						Atividade 02
+
+Questão 1-
+O protocolo RADIUS é um protocolo de padrão industrial utilizado para fornecer autorizações e serviços de estatísticas. O servidor RADIUS autentica e autoriza solicitações do cliente e retorna ao mesmo uma mensagem RADIUS. 
+
+Questão 2- 
+RCF 2866:
+Autor: Carl Rigney
+ Livingston Enterprises
+Data: junho/2000
+País: EUA-Califórnia
+
+Questão 3-
+Requisição de acesso: o usuário solicita um serviço de rede e envia as informações para o cliente (NAS) que solicita a requisição;
+Requisição remota: o cliente e servidor fazer as comunicações e autenticações através do proxy RADIUS.
+
+Questão 4-
+Os dados AVP são os mesmos (endereço IP e NAS). O RADIUS utiliza dos dados cliente e servidor do protocolo RCF para as funções.
