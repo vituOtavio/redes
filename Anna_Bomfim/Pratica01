@@ -1,0 +1,14 @@
+Discente: Anna Bomfim
+Topologia do tipo estrela 
+
+Sub rede: 172.16.10.0/24 --> /26: 255.255.255.192
+Máscara: 255.255.255.0
+Primeira subrede: h1-h4
+Segunda subrede: h2-h5
+Terceira subrede: h3-h6
+
+Subredes: 4
+Variante: 64
+Subrede h1-h4: 172.16.10.10-172.16.10.11
+Subrede h2-h5: 172.16.10.74-172.16.10.75
+Subrede h3-h6: 172.16.10.138-172.16.10.139 

@@ -1,0 +1,20 @@
+Discente: Anna Bomfim
+Redes 02
+
+01)ICMP (Internet Control Message Protocol), “Request” e “Reply”.
+
+02)Os RFCs ("Request for Comments"), basicamente, são publicações que documentam os padrões, serviços e protocolos oficiais da Internet, 
+e são mantidos pelo IETF - Internet Engineering Task Force, uma comunidade internacional aberta que desenvolve as especificações que se 
+tornam padrões da Internet.			
+ICMP, RFC 792. Data: Setembro de 1981.
+
+03) a)Nome: Ethernet Endereço de HW 1c:65:9d:71:b7:32
+b)Mascara: 255.255.248.0, /21.
+c)8192 subredes.
+d)Endereço de rede: 10.17.8.47
+e)Broadcast: 10.17.15.255
+f)Gateway: 10.17.1.0
+
+04)a) Uma outra maquina do laboratório:
+traceroute to 10.17.8.49 (10.17.8.49), 30 hops max, 60 byte packets
+1 * 10.17.8.49 (10.17.8.49) 52.208 ms 53.068 ms

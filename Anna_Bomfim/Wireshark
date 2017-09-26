@@ -1,0 +1,15 @@
+Discente: Anna Bomfim
+Wireshark
+
+01) RADIUS é um protocolo de rede que fornece gerenciamento centralizado de Autenticação, Autorização e Contabilização para usuários que 
+conectam-se  e utilizam um serviço de rede. O RADIUS foi desenvolvido pela Livingston Enterprises Ic. em 1991 como um protocolo de 
+autenticação e contabilização de servidor de acesso, sendo mais tarde introduzido como padrão do Internet Engineering Task Force.
+
+02)O documento RFC referente ao protocolo RADIUS é o 2865. Os autores são C. Rigney, S. Willens, Livingston, A. Rubens, Merit, W. Simpson 
+e o Daydreamer. 
+
+03)As mensagens trocadas entre cliente e servidor são o Access - Request, o Access - Accept, e o Access - Challenge.
+
+04)Basicamnete um  "Access - Request" deve conter um atributo para o nome e o usuário. Deve conter um atributo NAS-IP-Address e/ou um 
+NAS-Identifier.
+
