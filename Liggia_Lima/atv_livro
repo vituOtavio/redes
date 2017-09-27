@@ -1,0 +1,20 @@
+Estudante: Liggia Santos Lima
+Turma: TI441
+
+Atividade do livro.
+
+6.1
+1- O modo de infraestrutura é quando uma estação base disponibiliza serviços e controla o tráfego de dados de e para o hospedeiro conectado. Em resumo, é o modo de operação quando há associação estação-base e hospedeiro. Se não estiver em modo infraestrutura, ele está em rede ad-hoc e hospedeiro por não ter uma infraestrutura de conexão, tem que prover serviços de roteamento, dentre outros que no modo infraestrutura são de responsabilidade da estação-base;
+2- Tipos: salto único, com infraestrutura; salto único, sem infraestrutura; múltiplos saltos, com infraestrutura; múltiplos saltos, sem infraestrutura. Utilizados: salto único com e sem infraestrutura.
+
+6.2
+3- A redução da força do sinal é referente a dispersão do sinal quando o mesmo atravessa matéria ou alcança uma longa distância entre emissor e receptor; interferência de outras fontes é quando há vários sinais de mesma frequência em um local, o que causa perda de sinal quando as ondas se interceptam, ocorrendo a interferência; a propagação multivias ocorre quando a onda eletromagnética muda de percurso por conta da reflexão em objetos.
+4- Com a distância, a razão sinal-ruído é maior, a estação-base pode diminuir ou aumentar a taxa de erro, a depender do distanciamento. Outra solução seria reduzir ou aumentar a velocidade de transmissão de dados, diminuindo a taxa de erros.
+
+6.4
+7- Os smartphones tomaram conta do mercado e se mostram cada vez mais dependentes da internet. Como os celulares ainda não permitem conexão cabeada, as LAN’s 802.11 ultrapassaram a Ethernet. Além disso, internet cabeada necessita de organização e espaço, o que é difícil para alguns locais públicos.
+8- Falso, o formato Ethernet é definido pelo padrão IEEE 802.3 e 72 bytes de comprimento, alḿ da divisão em PRE, SFD, DA, SA, length/type, Data Pad e FCS. Já o Wi-Fi é definido pelo padrão IEEE 802.11, 34 bytes de comprimento e divisão de quadros diferente.
+
+6.5 e 6.6
+16- Se ele ficar em uma mesma rede ou subrede, não é necessário que o nó seja móvel. Mas se for mudar de rede, o nó tem que ser móvel. Um nó só é móvel quando muda de rede. Um usuário em sua LAN sempre, não é considerado móvel.
+
