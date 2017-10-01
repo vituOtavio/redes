@@ -1,0 +1,33 @@
+6.1:
+
+q1 - Uma rede está operando em modo infraestrutura quando os hospedeiros estão associados com uma estação-base,desse modo,
+diferindo de redes ad hoc,onde os hospedeiros devem prover serviços como roteamento, atribuição e tradução de endereços,
+devido a ausência desse tipo de infraestrutura.
+
+q2- Salto unico com infraestrutura.
+    Salto unico sem infraestrutura.
+    Múltipos saltos com infraestrutura.
+    Múltipos saltos sem infraestrutura.
+Já utilizei as duas primeiras.
+-----------------------------------------------------------------------------------------------------------------
+6.2:
+
+q3 - Atenuação de percurso: Quando há uma perda da força do sinal devido a um aumento da distância entre o emissor e o receptor
+   ocasionando a atenuação.
+   - Interferência de outras fontes: Quando fontes transmitem na mesma banda de frequência ou há algum ruído eletromagnético no
+   ambiente.
+   - Propragação multivías: Ocorre quando porções da onda eletromagnética se refletem em objetos e no solo, tomando caminhos
+   diferentes entre o emissor e o receptor.
+   
+q4 - ALterar técnica de modulação e aumentar SNR.
+-----------------------------------------------------------------------------------------------------------------
+6.3:
+
+q7 - Para evitar colisão durante a trasmissão de dados, pois, os protocolos em 802.11 e em Ethernet cabeadas se diferem.
+
+q8 - Falso, pois ao contrário da Ethernet, a 802.11 utiliza técnicas de prevenção de colisão.
+-----------------------------------------------------------------------------------------------------------------
+6.5 e 6.6:
+
+q16 - Nenhum sinal de atividade é apresentado pelo usuário, pois o mesmo só trafega dentro do alcance de uma mesma rede sem 
+fio. Logo, para a estação, ele não está em atividade.
