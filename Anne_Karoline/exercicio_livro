@@ -1,0 +1,24 @@
+Sessão 6.1
+
+Questão 1) O Modo de Infraestrutura ocorre quando os hospedeiros estão ligados a estação base, comunicando-se atravéz de roteador Wi-Fi, com um IP válido e compartilhando o mesmo SSID. Caso não tenha essa estrutura, os hospedeiros ficam responsáveis por prover serviços como roteamento, atribuição de endereço, entre outros, substituindo a falta de infraestrutura a qual se conectar, isto é chamado de Rede Ad Hoc.
+
+Questão 2)  Salto único, com infraestrutura ---> Utilizado
+            Salto único, sem infraestrutura ---> Utilizado
+            Múltiplos saltos, com infraestrutura ---> Não utilizado
+            Múltiplos saltos, sem infraestrutura ---> Não utilizado
+
+Sessão 6.2
+
+Questão 3) A propagação multivias ocorre quando partes da onda eletromagnética reflete em objetos ou no próprio solo, fazendo o comprimento de onda se alterar/variar entre o emissor e o receptor. Já na atenuação de percurso, as ondas perdem forcça ao atraver algum tipo de matéria, sendo intensificado com a distância entre emissor e receptor. Também ocorre a interferência de outras fontes que também operem em frequencias próximas, fazendo com que parte dos dados se percam e/ou as ondas percam força.
+
+Questão 4)
+
+Sessão 6.3
+
+Questão 7) O 802.11, diferentemente do Ethernet, não usa detecção de colisões, enviando os dados de forma integral, tornando-o facilmente degradavel, para sanar este problema o MAC 802.11 usa reconhecimento de camada de enlace. Como o Ethernet ouve o canal a medida que transmite, ele detecta possiveis interferências, tomando medidas que previnem a perda ou interrupção dos dados, por isso  este não utiliza o reconhecimento.
+
+Questão 8) Falso.
+
+Sessão 6.5 - 6.6
+
+Questão 16)
