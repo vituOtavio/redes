@@ -1,0 +1,14 @@
+sudo rm -rf teste
+git clone teste
+cd teste
+sudo util/install.sh -l {-Wnfve}
+sudo make install
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Atividade Mininet-wifi 03/10/2017
+
+
+Q.1.1: Mininet-WiFi: Emulating software-defined wireless networks - no Google Scholar é o
+primeiro resultado que aparece na pesquisa e possui um grande número de citações.
+
+Q.2.1:
