@@ -1,0 +1,12 @@
+Q 1.1 -  Principais artigos científicos:
+              1 - Mininet-WiFi: Emulating software-defined wireless networks
+                  Autores: Ramon R. Fontes; Samira Afzal; Samuel H. B. Brito; Mateus A. S. Santos; Christian Esteve Rothenberg
+              2 - Mininet-WiFi: A Platform for Hybrid Physical-Virtual Software-Defined Wireless Networking Research
+                  Autores: Ramon dos Reis Fontes; Christian Esteve Rothenberg 
+          Algumas citações:
+              1 - An innovative software-defined WiNeMO architecture for advanced QoS-guaranteed mobile service transport
+                  Autores: Felipe S. Dantas Silva; Augusto Venâncio Neto; Douglas Maciel; José Castillo-Lema; Flávio Silva; Pedro Frosie; Eduardo Cerqueira
+              2 - OFSwitch13: Enhancing ns-3 with OpenFlow 1.3 Support
+                  Autores: Luciano Jerez Chaves; Islene Calciolari Garcia; Edmundo Roberto Mauro Madeira
+
+Q 2.1
