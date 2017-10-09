@@ -1,0 +1,143 @@
+INSTITUTO FEDERAL DA BAHIA CAMPUS JEQUIÉ
+DICENTE: Vitor Otávio Santos dos Anjos
+TURMA: TI 441.
+
+//código---------------------------------------------------------------------------------------------------------------------------
+
+GNU nano 2.5.3                              Arquivo: simplewifitopology.py.save.2                                                                    
+
+#!/usr/bin/python
+
+'This example creates a simple network topology with 1 AP and 2 stations'
+
+from mininet.net import Mininet
+from mininet.node import  Controller, OVSKernelAP
+from mininet.cli import CLI
+from mininet.log import setLogLevel
+from mininet.link import TCLink
+
+def topology():
+    "Create a network."
+    net = Mininet(controller=Controller, link=TCLink, accessPoint=OVSKernelAP)
+
+    print "*** Creating nodes"
+    h1 = net.addHost('h1', ip='176.16.10.1/27')
+    h2 = net.addHost('h2', ip='176.16.10.24/27')
+    s1 = net.addSwitch('s1')
+
+    c0 = net.addController('c0', controller=Controller, ip='127.0.0.1', port=6633)
+
+    print "*** Configuring wifi nodes"
+    net.configureWifiNodes()
+
+    print "*** Associating Stations"
+    net.addLink(h1, s1)
+    net.addLink(h2, s1)
+
+    print "*** Starting network"
+    net.build()
+    c0.start()
+    s1.start([c0])
+
+    print "*** Running CLI"
+    CLI(net)
+
+    print "*** Stopping network"
+    net.stop()
+
+if __name__ == '__main__':
+    setLogLevel('info')
+    topology()
+//fim_do_código----------------------------------------------------------------------------------------------------------------------
+
+Questão 01)
+- Foi usado o 'Internet Control Message Protocol' ou 'ICMP'.
+- Foram os 'Request' e 'Reply'.
+
+Questão 02)
+os 'Request for Comments' ou 'RFCs' são desenvolvidos pelo 'IETF', instituição que especifica os 
+padrões que serão implementados na internet.
+Nome: ICMP
+Número: 792.
+Data: Setembro de 1981.
+ 
+Questão 03)
+
+a) Nome: Ethernet  Endereço de HW 1c:65:9d:71:b6:aa  
+b) Mascara: 255.255.248.0, sim é /21.
+c) 8192 sub-redes.
+d) Endereço de rede: 10.17.8.47
+e) Broadcast: 10.17.15.255 
+f) Gateway: 10.17.1.0
+
+Questão 04)
+
+A) Uma outra maquina do laboratório:
+traceroute to 10.17.8.49 (10.17.8.49), 30 hops max, 60 byte packets
+1 * 10.17.8.49 (10.17.8.49) 52.208 ms 53.068 ms
+
+B)traceroute to portal.ifba.edu.br (200.128.35.46), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+
+C) Para google.com:
+traceroute to google.com (216.58.202.238), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
