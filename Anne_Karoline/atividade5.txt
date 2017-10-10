@@ -13,13 +13,14 @@ Q 2.1 - Atraso: 0.206 ms. Não houvem perca de pacotes.
 Q 2.2 - Resultado: ['10.5 10.5 Mbits/sec', '10.6 Mbits/sec']
 Q 2.3 - {'txpower': [14], 'wlan': ['sta1-wlan0'], 'ip': ['10.0.0.1/8'], 'range': 14, 'antennaGain': [5], 'apsInRange': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=11402> ], 'mac': ['02:00:00:00:00:00'], 'frequency': [2.412], 'mode': ['g'], 'associatedTo': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=11402> ], 'antennaHeight': [1], 'position': (10.0, 20.0, 0.0), 'channel': [1], 'rssi': [-67.0]}
 Q 2.4 - ANULADA
+
 Q 3.1 - O nó sta3 está incomunicável, pois de encontra, parcialmente,fora da área de alcance do Acess Point. O st não se encontra conectado, de forma estável, ao st1.
 Q 3.2 - 
-Q 4.1 - 
+Q 3.3 -
+
+Q 4.1 - sta1 sta3 - 50.00m ['0.00 Mbits/sec', '0.00 Mbits/sec']
+        sta1 sta2 - 31.62m ['8.02 Mbits/sec', '8.42 Mbits/sec']
+        sta2 sta3 - 22.36m ['0.00 Mbits/sec', '0.00 Mbits/sec']
 Q 4.2 - Clear Channel Assessment (CCA) é um dos dois mecanismos de sensores da operadora na WLAN (ou WiFi). É definido nos padrões IEEE 802.11-2007 como parte da camada de Protocolo de convergência de camada física física (PMD) e camada física (PLCP). CCA envolve duas funções relacionadas - CCA-CS e CCA-ED.
 
-Sentido do operador (CCA-CS): capacidade do receptor para detectar e decodificar um preâmbulo WiFi. No campo de cabeçalho PLCP, a duração do tempo (em nós) para a qual o meio será ocupado pode ser inferida e, quando esse preâmbulo WiFi é detectado, a bandeira CCA é ocupada até o final da transmissão de dados.
-
-Detecção de energia (CCA-ED): capacidade do receptor para detectar energia não-WiFi no canal operacional e retroceder a transmissão de dados. O limite ED normalmente é definido como sendo 20dB acima da sensibilidade Rx mínima do PHY. Se a energia do sinal dentro da banda atravessar esse limite, o CCA é ocupado até que a energia média esteja abaixo do limiar.
-
-Para obter mais informações sobre CCA para OFDM PHY (802.11a / g / n), você pode ler a seção de Sensibilidade CCA 17.3.10.5 no documento de padrões IEEE 802.11.
+Q 5.1 - 
