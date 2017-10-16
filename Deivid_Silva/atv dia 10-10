@@ -39,4 +39,26 @@ Em determinado momento o sta2 para de se mover e o sta1 continua.
 Q 5.2)  Handover: tem o objetivo de  manter o móvel conectado que oferecer o melhor transmissão no
 momento. Mantendo assim transmissão ininterrupta enquanto o usuario se movimenta.
 
+6.1) 
+sta3 recebe pacotes do sta1
+sta4 não recebe do sta3
+sta6 não recebe do sta4
+
+Os que não conseguem se comunicar é devido as distancias "x, y, z".
+
+6.2) 
+01) Mudando x
+sta4 = net.addStation('sta4', position='120,140,0')
+sta6 = net.addStation('sta6', position='100,140,0')
+02) Mudando y
+sta4 = net.addStation('sta4', position='100,140,0')
+sta6 = net.addStation('sta6', position='100,120,0')
+
+6.3) Para modelos em que são necessários mais precisão em relação a distancia (x, y e z).
+
+
+
+
+
+
 
