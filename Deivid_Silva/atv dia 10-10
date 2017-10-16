@@ -32,4 +32,11 @@ Q 4.1)Banda de 6.91 Mbits/sec.
 Q 4.2) Clear Channel Evaluation (CCA) threshold: antes de transmitir um pacote, o dispositivo executa um CCA para 
 detectar energia no canal, se o dispositivo detectar energia acima do limite CCA, não transmitirá o pacote.
 
-Q 5.1)
+Q 5.1) Não, em determinado momento a comuinicação é interrompida.
+sta1 ping sta2: após um tempo para de pingar e aparece a mensagem "From 10.0.0.2 icmp_seq=1 Destination Host Unreachable"
+Em determinado momento o sta2 para de se mover e o sta1 continua.
+
+Q 5.2)  Handover: tem o objetivo de  manter o móvel conectado que oferecer o melhor transmissão no
+momento. Mantendo assim transmissão ininterrupta enquanto o usuario se movimenta.
+
+
