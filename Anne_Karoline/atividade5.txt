@@ -23,4 +23,9 @@ Q 4.1 - sta1 sta3 - 50.00m ['0.00 Mbits/sec', '0.00 Mbits/sec']
         sta2 sta3 - 22.36m ['0.00 Mbits/sec', '0.00 Mbits/sec']
 Q 4.2 - Clear Channel Assessment (CCA) é um dos dois mecanismos de sensores da operadora na WLAN (ou WiFi). É definido nos padrões IEEE 802.11-2007 como parte da camada de Protocolo de convergência de camada física física (PMD) e camada física (PLCP). CCA envolve duas funções relacionadas - CCA-CS e CCA-ED.
 
-Q 5.1 - 
+Q 5.1 - Não foi ininterrupta, pois o sta1 é um nó movél, enquanto o sta2 é fixo, logo, com sua locomoção, o sta1 fica fora da área de alcance do ap1, onde está conectado o sta2.
+Q 5.2 - Handover. Em uma definição mais simples, Handover pode ser considerado como a transferência de conexão do usuário de um canal de rádio para outro.
+
+Q 6.1 - As estações se comunicão com outras estações que estejam dentro ou em intercessão cm sua área de alcance, sendo assim, sta1 não consegue se comunicar diretamente com sta3, como entre sta4 e sta6.
+Q 6.2 -
+Q 6.3 - 
