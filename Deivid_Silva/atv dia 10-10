@@ -29,4 +29,7 @@ Q 3.3)O modelo "Friis" em um ambiente ideal, ou seja, sem interferência. O alca
 
 Q 4.1)Banda de 6.91 Mbits/sec.
 
-Q 4.2)
+Q 4.2) Clear Channel Evaluation (CCA) threshold: antes de transmitir um pacote, o dispositivo executa um CCA para 
+detectar energia no canal, se o dispositivo detectar energia acima do limite CCA, não transmitirá o pacote.
+
+Q 5.1)
