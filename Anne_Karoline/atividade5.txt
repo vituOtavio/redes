@@ -11,7 +11,20 @@ Q 1.1 -  Principais artigos científicos:
 
 Q 2.1 - Atraso: 0.206 ms. Não houvem perca de pacotes.
 Q 2.2 - Resultado: ['10.5 10.5 Mbits/sec', '10.6 Mbits/sec']
-Q 2.3 - {'txpower': [14], 'wlan': ['sta1-wlan0'], 'ip': ['10.0.0.1/8'], 'range': 14, 'antennaGain': [5], 'apsInRange': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=11402> ], 'mac': ['02:00:00:00:00:00'], 'frequency': [2.412], 'mode': ['g'], 'associatedTo': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=11402> ], 'antennaHeight': [1], 'position': (10.0, 20.0, 0.0), 'channel': [1], 'rssi': [-67.0]}
+Q 2.3 -  'txpower': [14] ---> potência de transmissão 
+         'wlan': ['sta1-wlan0'] ---> rede de área local (Wireless LAN)
+         'ip': ['10.0.0.1/8'] ---> identificação de um dispositivo em uma rede
+         'range': 14 ---> faixa de endereço ip
+         'antennaGain': [5] ---> potência da antena
+         'apsInRange': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=11402>] --->
+         'mac': ['02:00:00:00:00:00'] ---> endereço físico associado à interface de comunicação, que conecta um dispositivo à rede
+         'frequency': [2.412] ---> frequência do sinal
+         'mode': ['g'] ---> modo de potência de transmissão
+         'associatedTo': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=11402> ]
+         'antennaHeight': [1]
+         'position': (10.0, 20.0, 0.0) ---> posição da estação
+         'channel': [1] ---> canal de comunicação
+         'rssi': [-67.0] ---> Indicação da força/intensidade do sinal recebido
 Q 2.4 - ANULADA
 
 Q 3.1 - O nó sta3 está incomunicável, pois de encontra, parcialmente,fora da área de alcance do Acess Point. O st não se encontra conectado, de forma estável, ao st1.
