@@ -27,7 +27,7 @@ Q 2.3 -  'txpower': [14] ---> potência de transmissão
          'rssi': [-67.0] ---> Indicação da força/intensidade do sinal recebido
 Q 2.4 - ANULADA
 
-Q 3.1 - O nó sta3 está incomunicável, pois de encontra, parcialmente,fora da área de alcance do Acess Point. O st não se encontra conectado, de forma estável, ao st1.
+Q 3.1 - O nó sta3 está incomunicável, pois se encontra, parcialmente,fora da área de alcance do Acess Point. O sta3 não se encontra conectado, de forma estável, ao st1.
 Q 3.2 - 
 Q 3.3 -
 
