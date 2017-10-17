@@ -1,0 +1,66 @@
+Alunos: Deivid Gomes
+        Jessica Andrade
+
+Q 1.1)  Escolhemos este artigo pois apresenta o Mininet-WiFi como uma ferramenta para emular cenários sem fio OpenFlow / SDN, 
+permitindo experiências com fidelidade que replicam ambientes de rede reais. O Mininet-WiFi aumenta o conhecido emulador 
+Mininet com estações sem fio e pontos de acesso virtuais, mantendo os recursos SDN originais e a arquitetura de softwares de 
+virtualização leves.
+
+Q 2.1) Não houve perda de pacote
+Atraso de 0.105 ms em média.
+
+As estatísticas de ping oferecem essas informações;
+
+Q 2.2) Banda(Window Size): 85.3 Kbyte;
+
+Q 2.3)
+txpower: [14]                	  				//Controlador da potência de TX
+wlan: ['sta1-wlan0']        	 			 	//Nome
+ip: ['10.0.0.1/8']          	 			 	//IP da rede
+range: 14                   	  				//Alcance
+antennaGain: [5] 	     	  				//Ganho da antena expressa em decibeis
+apsInRange: [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=7046> ] //Informações dos pontos de acesso no alcance da antena
+mac: ['02:00:00:00:00:00']	  				//Endereço MAC da rede
+frequency: [2.412]         	  				//Frequência do sinal
+mode: ['g']	      	          				//Modo wireless, com máxima transferencia de 54MB/s.
+associatedTo: [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=7046> ] //Associado com...
+antennaHeight: [1]    		 			 	//Altura da antena
+position: [1.0, 0.0, 0.0]         				//Posição da antena
+channel: [1], 'rssi': [-36.0]     				//Canal em que se encontra
+
+Q 3.1)O sta3 está incomunicável porque se encontra além do alcance do ponto de acesso (AP1), e não está associado.
+
+Q 3.2)Com o modelo "net.propagationModel("friisPropagationLossModel", sL = 4)" o nivel de sinal é de -48 dBm.
+Já no "net.propagationModel("logDistancePropagationLossModel", exp=4)" o nivel de sinal é -62 dBm.
+
+Q 3.3)O modelo "Friis" em um ambiente ideal, ou seja, sem interferência. O alcance, nesse modelo, abrangeria uma área bem maior.
+
+Q 4.1)Banda de 6.91 Mbits/sec.
+
+Q 4.2) Clear Channel Evaluation (CCA) threshold: antes de transmitir um pacote, o dispositivo executa um CCA para 
+detectar energia no canal, se o dispositivo detectar energia acima do limite CCA, não transmitirá o pacote.
+
+Q 5.1) Não, em determinado momento a comuinicação é interrompida.
+sta1 ping sta2: após um tempo para de pingar e aparece a mensagem "From 10.0.0.2 icmp_seq=1 Destination Host Unreachable"
+Em determinado momento o sta2 para de se mover e o sta1 continua.
+
+Q 5.2)  Handover: tem o objetivo de  manter o móvel conectado que oferecer o melhor transmissão no
+momento. Mantendo assim transmissão ininterrupta enquanto o usuario se movimenta.
+
+6.1) 
+sta3 recebe pacotes do sta1
+sta4 não recebe do sta3
+sta6 não recebe do sta4
+
+Os que não conseguem se comunicar é devido as distancias "x, y, z".
+
+6.2) 
+01) Mudando x
+sta4 = net.addStation('sta4', position='120,140,0')
+sta6 = net.addStation('sta6', position='100,140,0')
+02) Mudando y
+sta4 = net.addStation('sta4', position='100,140,0')
+sta6 = net.addStation('sta6', position='100,120,0')
+
+6.3) Para modelos em que são necessários mais precisão em relação a distancia (x, y e z).
+
