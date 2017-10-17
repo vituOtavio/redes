@@ -1,0 +1,35 @@
+1.1-
+
+O artigo com mais recursos é o “Mininet-WiFi: Emulating software-defined wireless networks”, cujo autores são: Ramon R. Fontes, Samira Afzal, Samuel H. B. Brito, Mateus A. S. Santos e Christian Esteve Rothenberg. Tal publicação aborda os componentes principais do Mininet-Wifi, a diferença entre o Mininet e o Mininet-Wifi, as funcionalidades principais, o objetivo e a problemática que envolveu a criação do Mininet-Wifi, ou seja, um conteúdo satisfatório e abrangente para entender as funcionalidades.
+
+2.1-
+
+No primeiro ping STA1 ping STA2, antes de desconectar STA1, não ocorreu perda de pacotes e o tempo foi de 13300ms. Já no segundo ping, após a reconexão de STA1, também não ocorreu perda de pacotes, mas o tempo foi menor, totalizando 11271ms.
+
+2.2-
+
+Após o comando iperf o resultado observado foi: STA1- 10.5 Mbits/sec e STA2- 10.6 Mbits/sec.
+
+2.3- TxPower, potência transmitida pelo modem: 14; a wlan, componentes que fazem parte da lan: sta1-wlan0; ip, protocolo de rede local da sta1: 10.0.0.1/8; range, alcance da rede: 15; mac, interface de comunicação: 02:00:00:00:00:00; frequency: 2.412Hz; mode, modelo ou geração de rede: g; position: 1.0,0.0,0.0.
+
+2.4- anulada.
+
+3.1-
+
+O nó incomunicável é o STA3, ele está fora do limite de alcance da rede. Apenas parte do sinal está dentro do alcance. Ele está associado ao AP1, mas de forma parcial e insuficiente.
+
+3.2-
+
+O modelo escolhido foi o “Log-Normal Shadowing Propagation Loss Model”. O nivel de sinal no teste anterior foi de -62dBm, após mudar o modelo, o nível de sinal de STA1 desceu para -71dBm. O modelo apresenta uma fisionomia mais realista, com alterações de sinal e consequentemente com o alcance. Por isso, o nivel de sinal caiu.
+
+3.3-
+
+Por ser mais parecido com o real, e por ter mudanças de nível de sinal, o modelo Log-Normal pode ser utilizado em qualquer ambiente.
+
+4.1-
+
+O Iperf de STA1 (-32dBm) e STA3(-37dBm) deu 18 Mbits/sec para ambos, ou seja, largura 0. A distância entre eles é de 50m.
+
+4.2-
+
+O Clear Channel Assessmentt é um dos mecanismos de sensores na WLAN. É definido pelo protocolo IEEE 802.11. Existem duas CCA, a CCA-CS que é o sentido do operador cuja capacidade do receptor é detectar e decodificar um preâmbulo WiFi e a CCA-ED, que é a detecção de energia onde o receptor tem a capacidade de detectar energia excessiva no canal operacional e interferir na transmissão. 
