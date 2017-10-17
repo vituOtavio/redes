@@ -1,3 +1,11 @@
+Alunos: Deivid Gomes
+        Jessica Andrade
+
+Q 1.1)  Escolhemos este artigo pois apresenta o Mininet-WiFi como uma ferramenta para emular cenários sem fio OpenFlow / SDN, 
+permitindo experiências com fidelidade que replicam ambientes de rede reais. O Mininet-WiFi aumenta o conhecido emulador 
+Mininet com estações sem fio e pontos de acesso virtuais, mantendo os recursos SDN originais e a arquitetura de softwares de 
+virtualização leves.
+
 Q 2.1) Não houve perda de pacote
 Atraso de 0.105 ms em média.
 
