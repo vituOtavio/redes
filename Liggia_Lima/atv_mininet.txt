@@ -1,0 +1,39 @@
+IFBA- Jequié
+Estudante: Liggia Santos Lima e Anna Pereira Lima Bomfim
+Turma: TI441
+
+Atividade Mininet-Wifi
+
+
+1.1-
+O artigo com mais recursos é o “Mininet-WiFi: Emulating software-defined wireless networks”, cujo autores são: Ramon R. Fontes, Samira Afzal, Samuel H. B. Brito, Mateus A. S. Santos e Christian Esteve Rothenberg. Tal publicação aborda os componentes principais do Mininet-Wifi, a diferença entre o Mininet e o Mininet-Wifi, as funcionalidades principais, o objetivo e a problemática que envolveu a criação do Mininet-Wifi, ou seja, um conteúdo satisfatório e abrangente para entender as funcionalidades.
+
+2.1-
+No primeiro ping STA1 ping STA2, antes de desconectar STA1, não ocorreu perda de pacotes e o tempo foi de 13300ms. Já no segundo ping, após a reconexão de STA1, também não ocorreu perda de pacotes, mas o tempo foi menor, totalizando 11271ms.
+2.2- 
+Após o comando iperf o resultado observado foi: STA1- 10.5 Mbits/sec e STA2- 10.6 Mbits/sec.
+2.3- TxPower, potência transmitida pelo modem: 14; a wlan, componentes que fazem parte da lan: sta1-wlan0; ip, protocolo de rede local da sta1: 10.0.0.1/8; range, alcance da rede: 15; mac, interface de comunicação: 02:00:00:00:00:00; frequency: 2.412Hz; mode, modelo ou geração de rede: g; position: 1.0,0.0,0.0.
+2.4- anulada.
+
+3.1-
+O nó incomunicável é o STA3, ele está fora do limite de alcance da rede. Apenas parte do sinal está dentro do alcance. Ele está associado ao AP1, mas de forma parcial e insuficiente.
+3.2- 
+O modelo escolhido foi  o “Log-Normal Shadowing Propagation Loss Model”. O nivel de sinal no teste anterior foi de -62dBm, após mudar o modelo, o nível de sinal de STA1 desceu para -71dBm. O modelo apresenta uma fisionomia mais realista, com alterações de sinal e consequentemente com o alcance. Por isso, o nivel de sinal caiu.
+3.3-
+Por ser mais parecido com o real, e por ter mudanças de nível de sinal, o modelo Log-Normal pode ser utilizado em qualquer ambiente.
+
+4.1- 
+O Iperf de STA1 (-32dBm)  e STA3(-37dBm)  deu 18 Mbits/sec para ambos, ou seja, largura 0. A distância entre eles é de 50m.
+4.2-
+O Clear Channel Assessmentt é um dos mecanismos de sensores na WLAN. É definido pelo protocolo IEEE 802.11. Existem duas CCA, a CCA-CS que é o sentido do operador cuja capacidade do receptor é detectar e decodificar um preâmbulo WiFi e a CCA-ED, que é a detecção de energia onde o receptor tem a capacidade de detectar energia excessiva no canal operacional e interferir na transmissão.
+
+5.1-
+A comunicação entre STA1 e STA2 foi interrompida, o STA1 é um nó móvel que saiu da área de alcance de AP1 e foi para o alcance de AP2, ou seja, não tem como ocorrer a comunicação entre STA1 e STA2 por estarem em áreas de rede diferentes.
+5.2- O processo ocorrido com STA1 é chamado de handover, ele funciona com uma estação móvel onde os nós também são móveis. Ocorre a combinação de dados de uma célula para outra com setores diferentes para que tenha boa qualidade.
+
+6.1-
+STA1 e STA3 não se comunicam. O ponto de STA1 está fora da área de alcance de STA2 e STA3, portanto não tem como ocorrer a comunicação. A única comunicação que ocorre é entre STA2 e STA3.
+6.2-
+Para que ocorra a comunicação entre STA4 e STA6, mudei a posição x de STA4 e STA6para “sta4 = net.addStation('sta4', position='35,140,0')” e “sta6 = net.addStation('sta6', position='80,140,0')”. Neste caso, os dados serão passados para STA5 que passará para STA6. Para uma transferência direta de dados, a posição x ficaria “sta4 = net.addStation('sta4', position='55,140,0')” e “sta6 = net.addStation('sta6', position='65,140,0')”.
+6.3-
+Utilizaria em experimentos mais realistas, assim como o modelo  Log-Normal Shadowing Propagation Loss Model. Caso a transfrência de dados esteja dando erro por conta da distância das estações, poderia utilizar o modelo 3D para visualizar melhor e identificar as mudanças que devem ser feitas.
