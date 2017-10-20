@@ -1,0 +1,24 @@
+Q 2.1 - É observado um atraso de em média 107ms. Não havendo perca de pacotes, visto pelo ping statistics .
+
+Q 2.2 - Foi testado a banda TCP, obtendo o resultado 10.5 Mbits/sec e 10.6 Mbits/sec
+
+Q 2.3 - O sta1 tem uma potência de transmissão de 14, está na wlan0, tendo o ip 10.0.0.1/8 com um range de 15. /*Antenna Gain */ /* apsinrange*/
+ com o mac 02:00:00:00:00:00 numa frequencia de 2.412 no modo g /* associatedTo */ com uma altura de antena de 1, na posição 1.0, 0.0, 0.0, no canal 1 e com /* rssi*/
+
+
+ 'txpower': [14]
+ 'wlan': ['sta1-wlan0']
+ 'ip': ['10.0.0.1/8']
+ 'range': 15
+ 'antennaGain': [5]
+ 'apsInRange': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=20366> ]
+ 'mac': ['02:00:00:00:00:00'], 'frequency': [2.412], 'mode': ['g']
+ 'associatedTo': [<OVSAP ap1: lo:127.0.0.1,ap1-wlan1:None pid=20366> ]
+ 'antennaHeight': [1]
+ 'position': [1.0, 0.0, 0.0]
+ 'channel': [1]
+ 'rssi': [-36.0]
+
+Q 2.4 - anulada
+
+Q 3.1 - Sta1 não consegue se comunicar, pois está fora do alcance do sta2 e sta3, com distancia de 31.62 metros para o sta2 e 50.00 metros para o sta3. Mas, está associado com o AP1.
