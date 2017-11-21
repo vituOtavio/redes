@@ -1,0 +1,19 @@
+Q.1.:
+O atacante não fica impossibilitado de acessar a página. Com o comando DROP conseguimos criar uma regra para impedir o acesso
+de outro usuário a servidores locais criados, bloqueando a porta web.
+
+Q.2.:
+Um atacane conseguiu o acesso e outro não. Com esse comando, conseguimos especificar o ip que não terá acesso aos
+seus servidores, diferentemente de 'sudo iptables -A INPUT -p tcp --dport X -j DROP',que proibia o acesso de qualquer um.
+
+Q.3.:
+O comando execulta uma tela com a mensagem 'Trying 10.17.8.45...' e finaliza com 'Connection closed by foreign host' não
+possibilitando a conexão.
+
+Q.4.:
+o Telnet é um protocolo que utiliza a internet para acessar remotamente outro computador um servidor podendo execultar qualquer
+tipo de admistração no sistema. O telnet muito pouco seguro e por isso foi substituído pelo protocolo SSH que encriptográfar as
+mensagens, permitindo uma comuniação mais segura, aleḿ  ser mais rápida.
+
+Q.5.:
+O comando derrubou a conexão SSH que existia na máquina.
