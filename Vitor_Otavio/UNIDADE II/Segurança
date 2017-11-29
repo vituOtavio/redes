@@ -1,0 +1,38 @@
+Q.1.2:
+O 4-way Handshake é o método utilizado para conectarm o aparelho ao AP. o processo é feito da seguinte forma:
+
+Quando um dispositivo tenta se conectar ao AP ambos, dispositivo e AP, geram um Pairwise-Master-Key (PMK) para garantir que ambos conhecem a senha sem transmitir a senha pura.
+Quando o Handshake começa o PMK foi confirmado por ambos aparelhos.
+
+Key (Message 1 of 4): o AP envia um valor para o aparelho (STA) que criar uma PTK (Pairwise-Transient-Key).
+Key (Message 2 of 4): o STA retorna um valor nonce para o AP junto com Message Integrity Code (MIC).
+Key (Message 3 of 4): o AP gera (GTK) Group Temporal Key e envia para o STA para que possa realizar a detecção basica de repetição.
+Key (Message 4 of 4): o STA envia a confirmação para o AP através do (ACK) acknowledgement.
+
+Todo este processo foi realizado a partir do WPA2 desenvolvido para substituir o WEP que não possuia tantaa segurança.
+
+Q.2.1:
+Um host para ter acesso a um site envia para o AP a informação do IP que quer acessar e o AP procura e acessa esse IP na internet e
+devolve a informação ao Host. Durante a aula fizemos uma atividade que nos possibilita transformar nosso Host (attacker) em um
+Gateway de saída de um outro Host (victim), fazendo com que a informação trocada entre o Victim e o AP passem primeiro pelo Host do
+Attacker.
+Com essa noção é possivel roubar informações, como senhas, da vitíma. Assim utilizamos essa abordagem para descobrirmos a senha de
+um colega em sala de aula.
+
+Q.2.2:
+É possível impedir esse ataque usando o ArpON, por exmplo: 
+no terminal do Linux use:
+1º: sudo su;
+2º: apt-get install aptON;
+Espere a opção "Deseja continuar? [S/n]" aparecer e pressione 's';
+3º: Em seguida remova o comentário '#' (hashtag) das linhas abaixo e mude a opção 'RUN' de “no” para “yes”.
+-linha que o '#' deve ser apagado-
+# SARPI – Static Arp Inspection
+DAEMON_OPTS=”-q -f /var/log/arpon/arpon.log -g -s”
+
+# DARPI – Dynamic Arp Inspection
+DAEMON_OPTS=”-q -f /var/log/arpon/arpon.log -g -s”
+4º: digite "vim /etc/arpon.sarpi";
+5º: Inicie o servidor do arpON usando: "../etc/init.d/arpon start";
+6º: para finalizar digite: "cat /var/log/arpon/arpon.log".
+Isso iniciará o arpON em seu computador.
