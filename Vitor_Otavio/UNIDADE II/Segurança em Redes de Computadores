@@ -1,20 +1,23 @@
 
 Seção 8.1:
 
-1)A Confidencialidade de Menssagem diz respeito, principalmente, a segurança da transmissão da menssagem que deve ser lida somente pelo
+1)A Confidencialidade de Mensagem diz respeito, principalmente, a segurança da transmissão da mensagem que deve ser lida somente pelo
 remetente e destinatário. Assim Mensagens são cifradas para impedir que, em caso de interceptação, não seja lida pelo interceptador.
 A Integridade da Mensagem é a garantia de que a mensagem estará intacta quando alcançar o destinatário, não havendo nenhuma alteração
-durante a transmição. Assim a mensagem é entregue completa.
+durante a transmissão. Assim a mensagem é entregue completa.
 
-Uma menssagem pode se manter confidencial mesmo havendo perda de dados na transmição, caracterizando falta de integridade, já que o
+Uma mensagem pode se manter confidencial mesmo havendo perda de dados na transmissão, caracterizando falta de integridade, já que o
 conteúdo não foi visto por interceptadores. Mas havendo falta de confidencialidade perde-se a integridade pois a mensagem foi aberta por
-outro que não o destinatário, perdendo a integridade da menssagem.
+outro que não o destinatário, perdendo a integridade da mensagem.
 
-2)Troca de E-mails por dois usúarios;
+2)Troca de E-mails por dois usuários;
 Transações bancárias, financeiras;
 Sistema de nome de domínio (DNS);
 Gerenciamento de redes.
 
 Seção 8.3:
 
-18)
+18)O ataque Homem do Meio funciona quando algum atacante intercepta a comunicação entre duas partes sem que essas partes percebam que o
+ataque está ocorrendo, podendo, o atacante, adulterar, interceptar ou apenas visualizar a mensagem.
+É sim possível ocorrer um ataque Homem do Meio com chaves simétricas já que utiliza a mesma criptografia para encriptar e descriptografar a
+mensagem.
