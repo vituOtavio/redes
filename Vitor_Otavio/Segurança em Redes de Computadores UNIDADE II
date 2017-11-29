@@ -1,0 +1,19 @@
+Seção 8.1:
+
+1)A Confidencialidade de Menssagem diz respeito, principalmente, a segurança da transmissão da menssagem que deve ser lida somente pelo
+remetente e destinatário. Assim Mensagens são cifradas para impedir que, em caso de interceptação, não seja lida pelo interceptador.
+A Integridade da Mensagem é a garantia de que a mensagem estará intacta quando alcançar o destinatário, não havendo nenhuma alteração
+durante a transmição. Assim a mensagem é entregue completa.
+
+Uma menssagem pode se manter confidencial mesmo havendo perda de dados na transmição, caracterizando falta de integridade, já que o
+conteúdo não foi visto por interceptadores. Mas havendo falta de confidencialidade perde-se a integridade pois a mensagem foi aberta por
+outro que não o destinatário, perdendo a integridade da menssagem.
+
+2)Troca de E-mails por dois usúarios;
+Transações bancárias, financeiras;
+Sistema de nome de domínio (DNS);
+Gerenciamento de redes.
+
+Seção 8.3:
+
+18)
